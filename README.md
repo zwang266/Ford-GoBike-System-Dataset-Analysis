@@ -1,5 +1,4 @@
 # Ford-GoBike-System-Dataset-Analysis
-# Ford GoBike System Dataset
 ## by Zhiyu Wang
 
 
@@ -7,6 +6,35 @@
 
 > The dataset describes information about 183,000 rides in the Ford GoBike System covering the greater San Francisco Bay area, with user behavior as well as user demographic information.
 
+## Key Insights for Presentation
+
+### Distribution of rides by day of week and hour
+
+#### On which day of week there are most traffic?
+> On weekdays, the amount of rides doesn't have significant difference bewtween each other, around 27,500 trips per day.
+> At weekends, the amount of rides decreases by around 50%, around 14,000 trips per day.
+
+#### At which time of day there are most traffic?
+> The peak of traffic occurs around 7-9am and 16-18pm.
+> Between 10am and 15pm, the hourly traffic is around 7,500.
+> Before 7 am and after 18pm, the amount of rides decreases dramatically
+> During the midnight (1-5am), there are rarely people using GoBike.
+
+###Duration by hour of day
+
+####What's the average duration of each hour of day?
+There are two peaks in the Duration-Hour heat map, one between 8-10 am and the other between 16-18pm.
+The duration of both peaks are 5-10 minutes.
+Considering that most of the rides happen on weekdays. It's deduced that the most users choose to use GoBike to commute.
+Most of the users choose GoBike to travel a 5-10 minute distance.
+
+####Duration by day of week per user type
+
+####What's the usage patterns of different user types?
+The durations of subscribers among the week don't vary a lot on average between each other.
+The duration of customers are higher at weekends compared with that on weekdays.
+The average duration of customers are higher than that of subscribers everyday.
+The IQR of duration are higher at weekends for both groups.
 
 ## Summary of Findings
 
@@ -28,8 +56,3 @@
 13. **The durations of subscribers among the week don't change a lot on average. The durations of subscribers at weekends are higher.**
 14. The age and duration of subscribers are intensely distributed in the lower left of the plot: 20-35 year old, 3-15 minutes. The age and duration of subscribers are sparsely distributed.
 
-## Key Insights for Presentation
-
-1. The riding frequency is higher on weekdays, and has it peak at 8-9am and 16-18pm.
-2. There are two peaks in the Start Hour-Duration heat map, one between 8-10 am and the other between 16-18pm. The duration of both peaks are 5-10 minutes. It indicates that the most users choose to use sharing bikes to commute, with a 5-10-minute travel distance.
-3. The durations of subscribers among the week don't change a lot on average. The durations of subscribers at weekends are higher.
