@@ -23,18 +23,18 @@
 ### Duration by hour of day
 
 #### What's the average duration of each hour of day?
-There are two peaks in the Duration-Hour heat map, one between 8-10 am and the other between 16-18pm.
-The duration of both peaks are 5-10 minutes.
-Considering that most of the rides happen on weekdays. It's deduced that the most users choose to use GoBike to commute.
-Most of the users choose GoBike to travel a 5-10 minute distance.
+> There are two peaks in the Duration-Hour heat map, one between 8-10 am and the other between 16-18pm.
+> The duration of both peaks are 5-10 minutes.
+> Considering that most of the rides happen on weekdays. It's deduced that the most users choose to use GoBike to commute.
+> Most of the users choose GoBike to travel a 5-10 minute distance.
 
 #### Duration by day of week per user type
 
 #### What's the usage patterns of different user types?
-The durations of subscribers among the week don't vary a lot on average between each other.
-The duration of customers are higher at weekends compared with that on weekdays.
-The average duration of customers are higher than that of subscribers everyday.
-The IQR of duration are higher at weekends for both groups.
+> The durations of subscribers among the week don't vary a lot on average between each other.
+> The duration of customers are higher at weekends compared with that on weekdays.
+> The average duration of customers are higher than that of subscribers everyday.
+> The IQR of duration are higher at weekends for both groups.
 
 ## Summary of Findings
 
